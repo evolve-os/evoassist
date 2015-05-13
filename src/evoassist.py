@@ -178,7 +178,7 @@ class EvoAssistService(dbus.service.Object):
 
         # Also hacky, idc.
         if pkgname == "google-chrome-stable":
-            pkg = "https://raw.githubusercontent.com/evolve-os/3rd-party/master/network/web/browser/google-chrome-stable/pspec.xml"
+            pkg = "https://raw.githubusercontent.com/solus-project/3rd-party/master/network/web/browser/google-chrome-stable/pspec.xml"
         else:
             ok("ERROR: Unknown package description")
             ok("DONE")
